@@ -8,18 +8,18 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <footer>
-          This project was coded by Jen Begazo and is{" "}
-          <a
-            href="https://github.com/begazj/weather-react-jb"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-sourced
-          </a>{" "}
-          on Github
-        </footer>
       </div>
+      <footer>
+        This project was coded by Jen Begazo and is{" "}
+        <a
+          href="https://github.com/begazj/weather-react-jb"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced
+        </a>{" "}
+        on Github.
+      </footer>
     </div>
   );
 }

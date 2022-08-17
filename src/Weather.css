@@ -1,6 +1,139 @@
 .Weather {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding: 16px;
+  border: 2px solid #e0c388;
+  border-radius: 7px;
+  background-color: #02395e;
+  color: #e0c388;
+  font-family: "Megrim", cursive;
+}
+.Weather h1 {
+  font-size: 65px;
   margin-top: 20px;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 10px;
+  font-family: "Mea Culpa", cursive;
+  color: #e0c388;
+}
+.Weather h2 {
+  font-family: "Josefin Slab", cursive;
+}
+.Weather ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Weather hr {
+  color: #e0c388;
+  display: inline-block;
+  max-width: 70%;
+  margin-left: 75px;
+}
+.Weather form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Weather img {
+  margin-right: 10px;
+}
+.Weather .crystal-ball {
+  display: inline-block;
+  background: #02395e;
+  border: #e0c388 1px solid;
+  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+  box-shadow: 1px 1px #bdbebe;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.Weather .current-temp {
+  margin-top: 6px;
+}
+.Weather .temperature {
+  font-size: 50px;
+  line-height: 60px;
+}
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  line-height: 1;
+  top: -22px;
+  margin-left: 5px;
+}
+.Weather .weather-description {
+  font-size: 23px;
+}
+.Weather .fade-in-text {
+  font-size: 60px;
+  animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
+}
+.Weather .submit-button {
+  background: #e0c388;
+  border: #e0c388 1px solid;
+  color: #02395e;
+}
+.Weather .submit-button:hover {
+  background: #02395e;
+  border: #e0c388 1px solid;
+  color: #e0c388;
+  transition: ease-in-out 140ms;
+}
+.Weather .current-button {
+  background: #e0c388;
+  border: #e0c388 1px solid;
+  color: #02395e;
+}
+.Weather .current-button:hover {
+  background: #02395e;
+  border: #e0c388 1px solid;
+  color: #e0c388;
+  transition: ease-in-out 140ms;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
