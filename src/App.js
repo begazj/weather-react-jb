@@ -6,9 +6,8 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather />
-      </div>
+      <Weather />
+
       <footer>
         This project was coded by Jen Begazo and is{" "}
         <a
