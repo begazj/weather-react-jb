@@ -1,14 +1,20 @@
+.WeatherInfo canvas {
+  margin-right: 10px;
+  display: inline-block;
+}
 .WeatherInfo h2 {
   font-family: "Josefin Slab", cursive;
+  margin: 0px;
+  font-size: 35px;
 }
-
 .WeatherInfo ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .WeatherInfo .current-temp {
-  margin-top: 15px;
+  margin-top: 17px;
+  margin-bottom: -4px;
 }
 .WeatherInfo .temperature {
   font-size: 50px;
