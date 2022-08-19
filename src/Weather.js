@@ -6,10 +6,13 @@ import "./Weather.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
+  const [city, setCity] = useState(props.defaultCity);
+
   function handleResponse(response) {
     console.log(response.data);
     setWeatherData({
       ready: true,
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       temperature: response.data.main.temp,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
@@ -18,6 +21,22 @@ export default function Weather(props) {
       wind: Math.round(response.data.wind.speed),
     });
   }
+
+  function search() {
+    const apiKey = "7606076d1271fb4e58f13d2dd877419c";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(handleResponse);
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
+
+  function handleCityChange(event) {
+    setCity(event.target.value);
+  }
+
   if (weatherData.ready) {
     return (
       <div className="Weather shadow-lg">
@@ -27,7 +46,7 @@ export default function Weather(props) {
             <div>
               <WeatherInfo data={weatherData} />
             </div>
-            <form className="d-flex">
+            <form onSubmit={handleSubmit} className="d-flex">
               <div className="row m-1">
                 <div className="col-6">
                   <input
@@ -35,6 +54,7 @@ export default function Weather(props) {
                     placeHolder="Enter a city..."
                     className="form-control shadow-sm"
                     autoFocus="on"
+                    onChange={handleCityChange}
                   />
                 </div>
                 <div className="col-3">
@@ -64,9 +84,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    const apiKey = "7606076d1271fb4e58f13d2dd877419c";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(handleResponse);
+    search();
     return "Calling the universe...";
   }
 }
