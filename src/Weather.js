@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import FormattedDate from "./FormattedDate";
+import WeatherInfo from "./WeatherInfo";
 
 import "./Weather.css";
 
@@ -24,32 +24,8 @@ export default function Weather(props) {
         <div className="container">
           <div className="box with-linear-gradient">
             <h1>Weather Readings</h1>
-            <div className="crystal-ball shadow">
-              <div className="fade-in-text">
-                <div className="row current-temp">
-                  <div className="col">
-                    <div className="clearfix">
-                      <img
-                        src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                        alt="Sunny"
-                      ></img>
-                      <span className="temperature">
-                        {Math.round(weatherData.temperature)}
-                      </span>
-                      <span className="unit">°C</span>
-                    </div>
-                  </div>
-                </div>
-                <h2>{weatherData.city}</h2>
-                <ul className="weather-description">
-                  <li>
-                    <FormattedDate date={weatherData.date} />
-                  </li>
-                  <li className="text-capitalize">{weatherData.description}</li>
-                  <li>Humidity: {weatherData.humidity}%</li>
-                  <li>Wind: {weatherData.wind} km/h</li>
-                </ul>
-              </div>
+            <div>
+              <WeatherInfo data={weatherData} />
             </div>
             <form className="d-flex">
               <div className="row m-1">

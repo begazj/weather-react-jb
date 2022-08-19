@@ -1,0 +1,78 @@
+.WeatherInfo h2 {
+  font-family: "Josefin Slab", cursive;
+}
+
+.WeatherInfo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.WeatherInfo .current-temp {
+  margin-top: 15px;
+}
+.WeatherInfo .temperature {
+  font-size: 50px;
+  line-height: 60px;
+}
+.WeatherInfo .unit {
+  font-size: 16px;
+  position: relative;
+  line-height: 1;
+  top: -22px;
+}
+.WeatherInfo .weather-description {
+  font-size: 20px;
+}
+
+.WeatherInfo .fade-in-text {
+  font-size: 60px;
+  animation: fadeIn 13s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 9s;
+  -o-animation: fadeIn 8s;
+  -ms-animation: fadeIn 7s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

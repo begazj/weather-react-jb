@@ -14,14 +14,6 @@
   font-family: "Mea Culpa", cursive;
   color: #e0c388;
 }
-.Weather h2 {
-  font-family: "Josefin Slab", cursive;
-}
-.Weather ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 .Weather hr {
   max-width: 70%;
   margin-left: 70px;
@@ -55,30 +47,7 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.Weather .current-temp {
-  margin-top: 15px;
-}
-.Weather .temperature {
-  font-size: 50px;
-  line-height: 60px;
-}
-.Weather .unit {
-  font-size: 16px;
-  position: relative;
-  line-height: 1;
-  top: -22px;
-}
-.Weather .weather-description {
-  font-size: 20px;
-}
-.Weather .fade-in-text {
-  font-size: 60px;
-  animation: fadeIn 13s;
-  -webkit-animation: fadeIn 10s;
-  -moz-animation: fadeIn 9s;
-  -o-animation: fadeIn 8s;
-  -ms-animation: fadeIn 7s;
-}
+
 .Weather .submit-button {
   background: #e0c388;
   border: #e0c388 1px solid;
@@ -100,48 +69,4 @@
   border: #e0c388 1px solid;
   color: #e0c388;
   transition: ease-in-out 140ms;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
