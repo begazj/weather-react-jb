@@ -4,15 +4,15 @@
   padding: 16px;
 
   border-radius: 7px;
-  background-color: #02395e;
-  color: #e0c388;
+  background-color: #090909;
+  color: #aaa9ad;
   font-family: "Megrim", cursive;
 }
 .Weather h1 {
   font-size: 65px;
   margin-top: 20px;
   font-family: "Mea Culpa", cursive;
-  color: #e0c388;
+  color: #aaa9ad;
 }
 .Weather hr {
   max-width: 70%;
@@ -32,12 +32,20 @@
 .Weather .with-linear-gradient {
   border-style: solid;
   border-width: 2px;
-  border-image: linear-gradient(45deg, #e0c387, #dbbc7e, #dfb664, #edc967) 1;
+  border-image: linear-gradient(
+      45deg,
+      #a8a9ad,
+      #b4b5b8,
+      #c0c0c3,
+      #d7d7d8,
+      #e3e3e3
+    )
+    1;
 }
 .Weather .crystal-ball {
   display: inline-block;
-  background: #02395e;
-  border: #e0c388 1px solid;
+  background: #090909;
+  border: #aaa9ad 1px solid;
   border-radius: 50%;
   height: 300px;
   width: 300px;
@@ -47,24 +55,25 @@
 }
 
 .Weather .submit-button {
-  background: #e0c388;
-  border: #e0c388 1px solid;
-  color: #02395e;
+  background: #aaa9ad;
+
+  border: #aaa9ad 1px solid;
+  color: #090909;
 }
 .Weather .submit-button:hover {
-  background: #02395e;
-  border: #e0c388 1px solid;
-  color: #e0c388;
+  background: #090909;
+  border: #aaa9ad 1px solid;
+  color: #aaa9ad;
   transition: ease-in-out 140ms;
 }
 .Weather .current-button {
-  background: #e0c388;
-  border: #e0c388 1px solid;
-  color: #02395e;
+  background: #aaa9ad;
+  border: #aaa9ad 1px solid;
+  color: #090909;
 }
 .Weather .current-button:hover {
-  background: #02395e;
-  border: #e0c388 1px solid;
-  color: #e0c388;
+  background: #090909;
+  border: #aaa9ad 1px solid;
+  color: #aaa9ad;
   transition: ease-in-out 140ms;
 }
