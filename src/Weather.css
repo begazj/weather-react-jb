@@ -5,14 +5,14 @@
 
   border-radius: 7px;
   background-color: #090909;
-  color: #aaa9ad;
+  color: #c0c0c0;
   font-family: "Megrim", cursive;
 }
 .Weather h1 {
   font-size: 65px;
   margin-top: 20px;
   font-family: "Mea Culpa", cursive;
-  color: #aaa9ad;
+  color: #c0c0c0;
 }
 .Weather hr {
   max-width: 70%;
@@ -45,35 +45,35 @@
 .Weather .crystal-ball {
   display: inline-block;
   background: #090909;
-  border: #aaa9ad 1px solid;
+  border: #c0c0c0 1px solid;
   border-radius: 50%;
   height: 300px;
   width: 300px;
-  box-shadow: 1px 1px #bdbebe;
+  box-shadow: 10px 10px #bdbebe;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .Weather .submit-button {
-  background: #aaa9ad;
+  background: #c0c0c0;
 
-  border: #aaa9ad 1px solid;
+  border: #c0c0c0 1px solid;
   color: #090909;
 }
 .Weather .submit-button:hover {
   background: #090909;
-  border: #aaa9ad 1px solid;
-  color: #aaa9ad;
+  border: #c0c0c0 1px solid;
+  color: #c0c0c0;
   transition: ease-in-out 140ms;
 }
 .Weather .current-button {
-  background: #aaa9ad;
-  border: #aaa9ad 1px solid;
+  background: #c0c0c0;
+  border: #c0c0c0 1px solid;
   color: #090909;
 }
 .Weather .current-button:hover {
   background: #090909;
-  border: #aaa9ad 1px solid;
-  color: #aaa9ad;
+  border: #c0c0c0 1px solid;
+  color: #c0c0c0;
   transition: ease-in-out 140ms;
 }
