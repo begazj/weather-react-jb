@@ -13,6 +13,7 @@ export default function Weather(props) {
     console.log(response.data);
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
       city: response.data.name,
@@ -80,7 +81,7 @@ export default function Weather(props) {
                 <h4>Daily Guidance</h4>
               </div>
             </div>
-            <WeatherForecast />
+            <WeatherForecast coordinates={weatherData.coordinates} />
           </div>
         </div>
       </div>
