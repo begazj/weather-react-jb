@@ -5,7 +5,9 @@
   border-radius: 15px;
 }
 .App .container {
-  background-color: #ffffff;
+  background: radial-gradient(ellipse at bottom, #0d1e31, #111);
+
+  margin-bottom: -7px;
 }
 .App footer {
   font-size: 12px;

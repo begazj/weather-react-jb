@@ -49,8 +49,8 @@ export default function Weather(props) {
               <WeatherInfo data={weatherData} />
             </div>
             <form onSubmit={handleSubmit} className="d-flex">
-              <div className="row m-1">
-                <div className="col-6">
+              <div className=" begin-search row m-1 ">
+                <div className="col-9">
                   <input
                     type="search"
                     placeHolder="Enter a city..."
@@ -62,15 +62,8 @@ export default function Weather(props) {
                 <div className="col-3">
                   <input
                     type="submit"
-                    value="Search"
-                    className="submit-button btn btn-primary w-100 shadow-sm"
-                  />
-                </div>
-                <div className="col-3">
-                  <input
-                    type="submit"
-                    value="Current"
-                    className="current-button btn btn-primary w-100 shadow-sm"
+                    value="search"
+                    className="submit-button btn btn-primary shadow-sm"
                   />
                 </div>
               </div>

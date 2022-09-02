@@ -2,17 +2,17 @@
   margin-top: 30px;
   padding-top: 20px;
   padding: 16px;
-
+  background: radial-gradient(ellipse at bottom, #0d1e31, #111);
   border-radius: 7px;
-  background-color: fffff;
-  color: #000000;
+  color: #3f6794;
+
   font-family: "Megrim", cursive;
 }
 .Weather h1 {
   font-size: 65px;
   margin-top: 20px;
   font-family: "Mea Culpa", cursive;
-  color: #000000;
+  color: #3f6794;
 }
 .Weather hr {
   max-width: 70%;
@@ -21,6 +21,9 @@
 .Weather form {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.Weather input {
+  display: flex;
 }
 
 .Weather .box {
@@ -32,45 +35,33 @@
 .Weather .with-linear-gradient {
   border-style: solid;
   border-width: 2px;
-  border-image: #000000;
 }
 .Weather .crystal-ball {
   display: inline-block;
-  background: #ffffff;
-  border: #000000 1px solid;
+  border: #3f6794 1px solid;
   border-radius: 50%;
   height: 300px;
   width: 300px;
-
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-.Weather .crystall-ball::before {
-  background: linear-gradient(90deg, purple, green, hotpink);
-  z-index: -1;
-  filter: blur(20px);
+.Weather .begin-search {
+  padding-left: 53px;
 }
-
+.Weather .form-control {
+  background: transparent;
+  border: #0d1e31;
+  color: #3f6794;
+}
 .Weather .submit-button {
-  background: #ffffff;
-  border: #000000 1px solid;
-  color: #000000;
+  background: transparent;
+  border: #0d1e31 1px solid;
+  color: #3f6794;
 }
 .Weather .submit-button:hover {
-  background: #000000;
-  border: #000000 1px solid;
-  color: #ffffff;
-  transition: ease-in-out 200ms;
-}
-.Weather .current-button {
-  background: #ffffff;
-  border: #000000 1px solid;
-  color: #000000;
-}
-.Weather .current-button:hover {
-  background: #000000;
-  border: #000000 1px solid;
-  color: #ffffff;
+  background: transparent;
+  border: #3f6794 1px solid;
+  color: #3f6794;
   transition: ease-in-out 200ms;
 }
