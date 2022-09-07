@@ -7,53 +7,53 @@ export default function Stars() {
     <div className="Stars">
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-15 down-3 grow-10 rotate-15"
-        className="star-one-left fa-xl"
+        transform="left-30 down-3 grow-10 rotate-15"
+        className="star-one-left fa-lg"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="right-100 down-3 grow-10 rotate-50"
-        className="star-one-right fa-xl"
+        transform="right-120 down-3 grow-10 rotate-50"
+        className="star-one-right fa-lg"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-110 down-70 grow-8 "
-        className="star-two-left fa-lg"
+        transform="left-145 down-85 grow-8 "
+        className="star-two-left fa-md"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="right-140 down-70 grow-8 "
-        className="star-two-right fa-lg"
+        transform="right-175 down-85 grow-8 "
+        className="star-two-right fa-md"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-195 down-185 grow-6 rotate-75"
-        className="star-three-left fa-md"
+        transform="left-217 down-215 grow-6 rotate-75"
+        className="star-three-left fa-sm"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="right-155 down-185 grow-6 rotate-55"
-        className="star-three-right fa-md"
+        transform="right-185 down-215 grow-6 rotate-55"
+        className="star-three-right fa-sm"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-227 down-309 grow-4 "
-        className="star-four-left fa-sm"
+        transform="left-250 down-370 grow-4 "
+        className="star-four-left fa-xs"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="right-100 down-309 grow-4 "
-        className="star-four-right fa-sm"
+        transform="right-135 down-370 grow-4 "
+        className="star-four-right fa-xs"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-215 down-437 grow-2 "
-        className="star-five-left fa-xs"
+        transform="left-230 down-535 grow-2 "
+        className="star-five-left fa-2xs"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-12 down-437 grow-2 "
-        className="star-five-right fa-xs"
+        transform="right-10 down-536 grow-2 "
+        className="star-five-right fa-2xs"
       />
     </div>
   );
