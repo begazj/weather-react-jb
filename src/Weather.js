@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import Moon from "./Moon";
 import Stars from "./Stars";
 
 import "./Weather.css";
@@ -45,6 +46,7 @@ export default function Weather(props) {
       <div className="Weather shadow-lg">
         <div className="container">
           <div className="box with-linear-gradient">
+            <Moon />
             <h1>Weather Readings</h1>
             <Stars />
             <div>
