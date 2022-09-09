@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
@@ -6,10 +6,20 @@ import WeatherTemperature from "./WeatherTemperature";
 import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
+  const [animate, setAnimate] = useState(true);
+
+  useEffect(() => {
+    setAnimate(false);
+
+    setTimeout(() => {
+      setAnimate(true);
+    }, [10]);
+  }, [props.data.city]);
+
   return (
     <div className="WeatherInfo">
       <div className="crystal-ball shadow">
-        <div className="fade-in-text">
+        <div className={animate && `fade-in-text`}>
           <div className="row current-temp">
             <div className="col">
               <div className="clearfix">
