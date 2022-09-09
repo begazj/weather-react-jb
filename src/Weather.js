@@ -43,7 +43,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div className="Weather shadow-lg">
+      <div className="Weather">
         <div className="container">
           <div className="box with-linear-gradient">
             <Moon />

@@ -5,8 +5,8 @@
   background: radial-gradient(ellipse at bottom, #0d1e31, #111);
   border-radius: 7px;
   color: #3f6794;
-
   font-family: "Megrim", cursive;
+  box-shadow: 7px 6px 4px #9ea9b6;
 }
 .Weather h1 {
   font-size: 65px;
