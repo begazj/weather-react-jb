@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
     setAnimate(false);
     setTimeout(() => {
       setAnimate(true);
-    }, 600);
+    }, 400);
   }, [props.data.city]);
 
   return (
