@@ -12,6 +12,11 @@
   margin: 0;
   padding: 0;
 }
+.WeatherInfo .loading-phrase {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+}
 .WeatherInfo .current-temp {
   margin-top: 21px;
   margin-bottom: -4px;
