@@ -12,9 +12,6 @@
   margin: 0;
   padding: 0;
 }
-.WeatherInfo .crystal-ball {
-  border: #ffffff 1px solid;
-}
 .WeatherInfo .loading-phrase {
   margin-top: 100px;
   text-align: center;
