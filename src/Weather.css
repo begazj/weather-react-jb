@@ -9,16 +9,19 @@
   box-shadow: 7px 6px 4px #9ea9b6;
 }
 .Weather h2 {
-  font-size: 80 px;
+  font-size: 39px;
   margin-top: -10px;
   font-family: "Tangerine", cursive;
   color: #c3d4e6;
+}
+.Weather h4 {
+  margin-bottom: 20px;
 }
 .Weather hr {
   max-width: 70%;
   margin-left: 70px;
   margin-top: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .Weather form {
   margin-top: 15px;
