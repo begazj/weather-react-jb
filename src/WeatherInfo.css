@@ -2,10 +2,10 @@
   margin-right: 10px;
   display: inline-block;
 }
-.WeatherInfo h2 {
-  font-family: "Josefin Slab", cursive;
+.WeatherInfo h1 {
+  font-family: "Tangerine", cursive;
   margin: 0px;
-  font-size: 35px;
+  font-size: 48px;
 }
 .WeatherInfo ul {
   list-style: none;

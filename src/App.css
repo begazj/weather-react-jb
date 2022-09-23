@@ -6,7 +6,6 @@
 }
 .App .container {
   background: radial-gradient(ellipse at bottom, #0d1e31, #111);
-
   margin-bottom: -7px;
 }
 .App footer {

@@ -4,23 +4,23 @@
   padding: 16px;
   background: radial-gradient(ellipse at bottom, #0d1e31, #111);
   border-radius: 7px;
-  color: #3f6794;
-  font-family: "Megrim", cursive;
+  color: #c3d4e6;
+  font-family: "Cormorant Garamond", serif;
   box-shadow: 7px 6px 4px #9ea9b6;
 }
-.Weather h1 {
-  font-size: 65px;
+.Weather h2 {
+  font-size: 80 px;
   margin-top: -10px;
-  font-family: "Mea Culpa", cursive;
-  color: #3f6794;
+  font-family: "Tangerine", cursive;
+  color: #c3d4e6;
 }
 .Weather hr {
   max-width: 70%;
   margin-left: 70px;
 }
 .Weather form {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .Weather input {
   display: flex;
@@ -38,7 +38,6 @@
 }
 .Weather .crystal-ball {
   display: inline-block;
-  border: #3f6794 1px solid;
   border-radius: 50%;
   height: 300px;
   width: 300px;
@@ -50,18 +49,14 @@
   padding-left: 53px;
 }
 .Weather .form-control {
-  background: transparent;
-  border: #0d1e31;
-  color: #3f6794;
+  color: #0d1e31;
 }
 .Weather .submit-button {
-  background: transparent;
-  border: #0d1e31 1px solid;
-  color: #555b63;
+  border: 1px solid;
+  color: #0d1e31;
 }
 .Weather .submit-button:hover {
-  background: transparent;
-  border: #3f6794 1px solid;
-  color: #3f6794;
+  background-color: #c3d4e6;
+  color: #0d1e31;
   transition: ease-in-out 200ms;
 }

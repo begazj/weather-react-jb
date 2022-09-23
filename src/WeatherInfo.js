@@ -30,7 +30,7 @@ export default function WeatherInfo(props) {
                 </div>
               </div>
             </div>
-            <h2>{props.data.city}</h2>
+            <h1>{props.data.city}</h1>
             <ul className="weather-description">
               <li>
                 <FormattedDate date={props.data.date} />

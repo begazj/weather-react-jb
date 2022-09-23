@@ -47,18 +47,14 @@ export default function Weather(props) {
         <div className="container">
           <div className="box with-linear-gradient">
             <Moon />
-            <h1>Weather Readings</h1>
-            <Stars />
-            <div>
-              <WeatherInfo data={weatherData} />
-            </div>
+            <h2>Weather Readings</h2>
             <form onSubmit={handleSubmit} className="d-flex">
               <div className=" begin-search row m-1 ">
                 <div className="col-9">
                   <input
                     type="search"
                     placeHolder="Enter a city..."
-                    className="form-control shadow-sm"
+                    className="form-control"
                     autoFocus="on"
                     onChange={handleCityChange}
                   />
@@ -66,12 +62,17 @@ export default function Weather(props) {
                 <div className="col-3">
                   <input
                     type="submit"
-                    value="search"
-                    className="submit-button btn btn-primary shadow-sm"
+                    value="Search"
+                    className="submit-button btn btn-light"
                   />
                 </div>
               </div>
             </form>
+            <Stars />
+            <div>
+              <WeatherInfo data={weatherData} />
+            </div>
+
             <hr />
             <div className="row">
               <div className="col">
