@@ -17,7 +17,7 @@ export default function WeatherInfo(props) {
 
   return (
     <div className="WeatherInfo">
-      <div className="crystal-ball shadow">
+      <div className="crystal-ball">
         {!animate ? (
           <div className="loading-phrase">Calling the Universe</div>
         ) : (
