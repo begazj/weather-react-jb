@@ -1,0 +1,9 @@
+.WeatherForecastDay {
+  margin-bottom: 7px;
+}
+.WeatherForecastDay .container-forecast {
+  background: transparent;
+}
+.WeatherForecastDay .WeatherForecast-day {
+  margin-bottom: 10px;
+}
