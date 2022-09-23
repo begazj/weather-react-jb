@@ -7,12 +7,12 @@ export default function Stars() {
     <div className="Stars">
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-23 down-15 grow-10 rotate-15"
+        transform="left-12 down-15 grow-10 rotate-15"
         className="star-one-left fa-lg"
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="right-114 down-15 grow-10 rotate-50"
+        transform="right-103 down-15 grow-10 rotate-50"
         className="star-one-right fa-lg"
       />
       <FontAwesomeIcon
