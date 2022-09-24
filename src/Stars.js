@@ -32,7 +32,7 @@ export default function Stars() {
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="right-165 down-208 grow-6 "
+        transform="right-162 down-208 grow-6 "
         className="star-three-right fa-sm"
       />
       <FontAwesomeIcon
