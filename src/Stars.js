@@ -17,7 +17,7 @@ export default function Stars() {
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-123 down-93 grow-8 "
+        transform="left-121 down-93 grow-8 "
         className="star-two-left fa-md"
       />
       <FontAwesomeIcon
@@ -27,7 +27,7 @@ export default function Stars() {
       />
       <FontAwesomeIcon
         icon={faStar}
-        transform="left-193 down-208 grow-6"
+        transform="left-189 down-208 grow-6"
         className="star-three-left fa-sm"
       />
       <FontAwesomeIcon

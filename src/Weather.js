@@ -50,7 +50,7 @@ export default function Weather(props) {
             <h2>Weather Readings</h2>
             <form onSubmit={handleSubmit} className="d-flex">
               <div className=" begin-search row m-1 ">
-                <div className="col-9">
+                <div className="col-8">
                   <input
                     type="search"
                     placeHolder="Enter a city..."
@@ -59,7 +59,7 @@ export default function Weather(props) {
                     onChange={handleCityChange}
                   />
                 </div>
-                <div className="col-3">
+                <div className="col-4">
                   <input
                     type="submit"
                     value="Search"

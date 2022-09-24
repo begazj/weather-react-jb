@@ -18,9 +18,9 @@
   margin-bottom: 20px;
 }
 .Weather hr {
-  max-width: 70%;
-  margin-left: 70px;
-  margin-top: 40px;
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .Weather form {
