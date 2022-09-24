@@ -7,12 +7,12 @@ export default function Moon() {
     <div className="Moon">
       <FontAwesomeIcon
         icon={faMoon}
-        transform="left-180 down-30 rotate--20"
+        transform="left-165 down-30 rotate--20"
         className="sun fa-sm"
       />
       <FontAwesomeIcon
         icon={faMoon}
-        transform="right-180 down-30 rotate--20"
+        transform="right-165 down-30 rotate--20"
         flip="horizontal"
         className="moon fa-sm"
       />
