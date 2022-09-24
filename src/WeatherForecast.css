@@ -5,3 +5,6 @@
 .WeatherForecast {
   margin-bottom: 10px;
 }
+.WeatherForecast .row {
+  --bs-gutter-x: 0.5rem;
+}
