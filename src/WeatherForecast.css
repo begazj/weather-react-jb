@@ -8,3 +8,8 @@
 .WeatherForecast .row {
   --bs-gutter-x: 0.5rem;
 }
+@media (max-width: 600px) {
+  .WeatherForecast .row {
+    --bs-gutter-x: -0.5rem;
+  }
+}
