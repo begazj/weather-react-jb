@@ -27,10 +27,6 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.Weather input {
-  display: flex;
-}
-
 .Weather .box {
   margin-top: -2px;
   margin-bottom: 7px;
