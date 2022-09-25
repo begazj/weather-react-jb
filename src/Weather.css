@@ -26,7 +26,7 @@
 .Weather form .row {
   padding-top: 15px;
   padding-bottom: 15px;
-  --bs-gutter-x: 2.5rem;
+  --bs-gutter-x: 0.5rem;
 }
 
 .Weather .box {
@@ -49,18 +49,24 @@
 }
 
 .Weather .begin-search {
-  padding-left: 60px;
+  padding-left: 65px;
 }
 .Weather .form-control {
-  color: #0d1e31;
+  color: #c3d4e6;
+  background: transparent;
+}
+.Weather .btn {
+  --bs-btn-padding-x: 1.75rem;
 }
 .Weather .submit-button {
   border: 1px solid;
   color: #0d1e31;
+  background: #c3d4e6;
 }
 .Weather .submit-button:hover {
-  background-color: #c3d4e6;
-  color: #0d1e31;
+  background-color: transparent;
+  border: #c3d4e6 1px solid;
+  color: #c3d4e6;
   transition: ease-in-out 200ms;
 }
 @media (max-width: 600px) {
@@ -68,10 +74,11 @@
     margin-top: 0px;
     margin-bottom: 15px;
   }
-  .Weather form {
-    padding-right: 60px;
+  .Weather form .row {
+    --bs-gutter-x: 0.5rem;
   }
+
   .Weather .begin-search {
-    padding-left: 38px;
+    padding-left: 28px;
   }
 }
