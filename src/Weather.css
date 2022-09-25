@@ -47,9 +47,9 @@
   margin-top: 10px;
   margin-bottom: 5px;
 }
-
-.Weather .begin-search {
-  padding-left: 65px;
+.Weather .search-form {
+  padding-left: 50px;
+  padding-right: 75px;
 }
 .Weather .form-control {
   color: #c3d4e6;
@@ -76,6 +76,10 @@
   }
   .Weather form .row {
     --bs-gutter-x: 0.5rem;
+  }
+  .Weather .search-form {
+    padding-left: 10px;
+    padding-right: 80px;
   }
 
   .Weather .begin-search {
